@@ -1,287 +1,119 @@
-Certainly! Here is a comprehensive list of topics you should cover for a solid understanding of Core Java and related technologies, including JUnit, Data Structures and Algorithms (DSA), Git, JDBC, Servlets and JSP, Hibernate, and RESTful Web Services.
+# Core Java Learning Repository
 
-### Core Java
+## Overview
+Welcome to the Core Java Learning Repository! This repository is designed to be a comprehensive resource for anyone looking to learn Core Java from the ground up. The content is organized into segments, each focusing on different Java concepts, complete with exercises, projects, and explanations.
 
-1. **Introduction to Java**
-   - History and Features of Java
-   - Java Development Kit (JDK), Java Runtime Environment (JRE), and Java Virtual Machine (JVM)
-   - Writing and Running Your First Java Program
+## Table of Contents
+- [Introduction](#introduction)
+- [Segment 0: Variables, Data Types, Literals, Type Conversion, Operators](#segment-0-variables-data-types-literals-type-conversion-operators)
+- [Segment 1: Control Flow Statements](#segment-1-control-flow-statements)
+- [Segment 2: Object-Oriented Programming](#segment-2-object-oriented-programming)
+- [Segment 3: Arrays and Strings](#segment-3-arrays-and-strings)
+- [Segment 4: Exception Handling and Multithreading](#segment-4-exception-handling-and-multithreading)
+- [Segment 5: Collections and Stream API](#segment-5-collections-and-stream-api)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-2. **Basic Syntax**
-   - Data Types and Variables
-   - Operators (Arithmetic, Relational, Logical, Bitwise, Assignment, Miscellaneous)
-   - Control Statements (if, else, switch)
-   - Loops (for, while, do-while)
-   - Arrays
+## Introduction
+This repository provides a structured approach to learning Core Java. Each segment covers specific Java topics, with detailed explanations, exercises, and small projects to help reinforce your understanding.
 
-3. **Object-Oriented Programming (OOP) Concepts**
-   - Classes and Objects
-   - Constructors
-   - Methods
-   - `this` keyword
-   - Overloading Methods
-   - Static Variables and Methods
+## Segment 0: Variables, Data Types, Literals, Type Conversion, Operators
+**Directory:** [Segment 0](segment0/)
 
-4. **Inheritance and Polymorphism**
-   - Inheritance (extends keyword)
-   - Method Overriding
-   - `super` keyword
-   - final keyword
-   - Type Casting
-   - Polymorphism
-   - Abstract Classes and Methods
-   - Interfaces
+### Topics Covered:
+- Variables in Java
+- Data Types in Java
+- Literals in Java
+- Type Conversion (Implicit and Explicit)
+- Assignment Operators
+- Relational Operators
+- Logical Operators
 
-5. **Packages and Access Modifiers**
-   - Packages
-   - Importing Packages
-   - Access Modifiers (private, default, protected, public)
+### Exercises:
+1. **Primitive Data Types**: Create a program to demonstrate the use of all primitive data types and print their default values.
+2. **Type Conversion**: Write a program that demonstrates implicit and explicit type conversion.
 
-6. **Exception Handling**
-   - Types of Exceptions
-   - try, catch, throw, throws, and finally
-   - Custom Exceptions
+## Segment 1: Control Flow Statements
+**Directory:** [Segment 1](segment1/)
 
-7. **String Handling**
-   - String Class
-   - StringBuffer and StringBuilder
-   - String Methods
-   - StringTokenizer
+### Topics Covered:
+- If-Else Statements
+- Switch Statements
+- Loops (For, While, Do-While)
+- Ternary Operator
 
-8. **Collections Framework (Basics)**
-   - Collection Interfaces (List, Set, Map)
-   - Collection Classes (ArrayList, LinkedList, HashSet, LinkedHashSet, TreeSet, HashMap, LinkedHashMap, TreeMap)
-   - Iterators
+### Exercises:
+1. **Basic Calculator**: Create a simple calculator that can perform basic arithmetic operations using if-else and switch-case statements.
+2. **Loop Patterns**: Write programs to print various patterns using loops.
 
-9. **Java I/O (Basics)**
-   - File Class
-   - Byte Streams and Character Streams
-   - FileInputStream and FileOutputStream
-   - BufferedReader and BufferedWriter
+## Segment 2: Object-Oriented Programming
+**Directory:** [Segment 2](segment2/)
 
-10. **Java Utilities (java.util package)**
-    - Date and Time API (java.time package)
-    - Calendar Class
-    - Random Class
-    - Scanner Class
+### Topics Covered:
+- Classes and Objects
+- Constructors
+- Inheritance (Single, Multilevel, Multiple)
+- Polymorphism (Method Overloading and Overriding)
+- Encapsulation (Getters and Setters)
+- `this` and `super` keywords
 
-### JUnit
+### Exercises:
+1. **Bank Account Simulation**: Create a class `BankAccount` with methods to deposit, withdraw, and check balance.
+2. **Inheritance Example**: Implement a simple inheritance hierarchy with classes like `Animal`, `Dog`, and `Cat`.
 
-1. **Introduction to JUnit**
-   - JUnit Framework Overview
-   - Writing Basic Test Cases
-   - Annotations (@Test, @Before, @After, @BeforeClass, @AfterClass)
+## Segment 3: Arrays and Strings
+**Directory:** [Segment 3](segment3/)
 
-2. **Assertions**
-   - assertEquals, assertTrue, assertFalse, assertNull, assertNotNull, assertSame, assertNotSame
+### Topics Covered:
+- Single and Multi-dimensional Arrays
+- Jagged Arrays
+- Array Operations
+- String Manipulation
+- Mutable vs Immutable Strings
+- StringBuilder and StringBuffer
 
-3. **Test Suites**
-   - Organizing Tests into Test Suites
-   - Running Test Suites
+### Exercises:
+1. **Array Sorting**: Write a program to sort an array of integers using different sorting algorithms.
+2. **String Manipulation**: Create a program that reverses a string and checks for palindromes.
 
-4. **Parameterized Tests**
-   - Writing Parameterized Tests
-   - Using @RunWith and @Parameters
+## Segment 4: Exception Handling and Multithreading
+**Directory:** [Segment 4](segment4/)
 
-5. **Exception Testing**
-   - Handling Expected Exceptions
-   - Using @Test(expected)
+### Topics Covered:
+- Exception Handling (`try`, `catch`, `finally`, `throw`, `throws`)
+- Custom Exceptions
+- Introduction to Threads
+- Thread Life Cycle and States
+- Synchronization and Race Conditions
 
-6. **Test Fixtures**
-   - Setting Up and Tearing Down Test Fixtures
+### Exercises:
+1. **Custom Exception**: Create a custom exception for handling invalid user input in a program.
+2. **Thread Simulation**: Write a program to simulate a multi-threaded environment and demonstrate synchronization.
 
-7. **Mocking Frameworks**
-   - Introduction to Mocking
-   - Using Mockito for Mocking
+## Segment 5: Collections and Stream API
+**Directory:** [Segment 5](segment5/)
 
-### Data Structures and Algorithms (DSA)
+### Topics Covered:
+- Collection Framework (List, Set, Map)
+- ArrayList, LinkedList, HashSet, TreeSet, HashMap, TreeMap
+- Comparator vs Comparable
+- Stream API Basics
+- Functional Interfaces and Lambda Expressions
 
-1. **Basic Data Structures**
-   - Arrays
-   - Linked Lists (Singly Linked List, Doubly Linked List, Circular Linked List)
-   - Stacks
-   - Queues (Basic Queue, Circular Queue, Priority Queue, Deque)
+### Exercises:
+1. **Student Database**: Create a program that uses a `List` to store student records and allows operations like add, remove, and search.
+2. **Stream API**: Use the Stream API to filter, map, and reduce a collection of data.
 
-2. **Trees**
-   - Binary Trees
-   - Binary Search Trees
-   - AVL Trees
-   - Red-Black Trees
-   - Tree Traversals (Inorder, Preorder, Postorder)
+## Contributing
+Contributions are welcome! If you have suggestions, additional exercises, or improvements, feel free to fork this repository and submit a pull request. Your input will help make this resource even more valuable for future learners.
 
-3. **Heaps**
-   - Min-Heap
-   - Max-Heap
-   - Heap Operations
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-4. **Graphs**
-   - Graph Representations (Adjacency Matrix, Adjacency List)
-   - Depth-First Search (DFS)
-   - Breadth-First Search (BFS)
-   - Shortest Path Algorithms (Dijkstra's, Bellman-Ford)
-   - Minimum Spanning Tree (Prim's, Kruskal's)
+## Contact
+For any questions or further assistance, feel free to reach out via email at [your-email@example.com](mailto:your-email@example.com).
 
-5. **Hashing**
-   - Hash Tables
-   - Collision Resolution Techniques (Chaining, Open Addressing)
+---
 
-6. **Sorting Algorithms**
-   - Bubble Sort
-   - Selection Sort
-   - Insertion Sort
-   - Merge Sort
-   - Quick Sort
-   - Heap Sort
-   - Counting Sort
-   - Radix Sort
-   - Bucket Sort
-
-7. **Search Algorithms**
-   - Linear Search
-   - Binary Search
-   - Interpolation Search
-
-8. **Dynamic Programming**
-   - Memoization
-   - Tabulation
-   - Common Problems (Knapsack, Longest Common Subsequence, Coin Change)
-
-### Git
-
-1. **Introduction to Git**
-   - What is Git?
-   - Installing Git
-   - Basic Git Commands (init, clone, add, commit, status, log)
-
-2. **Branching and Merging**
-   - Creating Branches
-   - Switching Branches
-   - Merging Branches
-   - Handling Merge Conflicts
-
-3. **Remote Repositories**
-   - Connecting to Remote Repositories
-   - Pushing Changes
-   - Pulling Changes
-   - Fetching Changes
-
-4. **Git Workflow**
-   - Forking Repositories
-   - Pull Requests
-   - Rebasing
-   - Stashing Changes
-
-5. **Collaboration with GitHub**
-   - Creating Repositories on GitHub
-   - Collaborating with Others
-   - Managing Issues and Pull Requests
-
-### JDBC
-
-1. **Introduction to JDBC**
-   - JDBC Architecture
-   - Setting Up a JDBC Environment
-   - Driver Types
-
-2. **Connecting to a Database**
-   - Establishing a Connection
-   - Connection Interface
-
-3. **Executing SQL Queries**
-   - Statement Interface
-   - ResultSet Interface
-   - PreparedStatement
-   - CallableStatement
-
-4. **Handling Transactions**
-   - Transaction Management
-   - Commit and Rollback
-
-5. **Batch Processing**
-   - Batch Updates
-
-6. **Advanced JDBC Features**
-   - Metadata (DatabaseMetaData, ResultSetMetaData)
-   - RowSet Interface
-
-### Servlets and JSP
-
-1. **Introduction to Web Applications**
-   - Web Application Basics
-   - Servlet and JSP Overview
-
-2. **Servlets**
-   - Lifecycle of a Servlet
-   - Writing and Deploying Servlets
-   - Handling Requests and Responses
-   - ServletConfig and ServletContext
-   - Session Management (Cookies, HttpSession)
-   - RequestDispatcher and Redirects
-
-3. **JavaServer Pages (JSP)**
-   - JSP Basics
-   - JSP Lifecycle
-   - JSP Scripting Elements (Declarations, Scriptlets, Expressions)
-   - JSP Directives (page, include, taglib)
-   - JSP Action Tags
-   - Expression Language (EL)
-   - JSP Standard Tag Library (JSTL)
-
-4. **MVC Architecture**
-   - Implementing MVC with Servlets and JSP
-
-### Hibernate
-
-1. **Introduction to Hibernate**
-   - ORM Basics
-   - Hibernate Architecture
-   - Setting Up Hibernate
-
-2. **Basic CRUD Operations**
-   - Entity Classes and Mapping
-   - Configuration and SessionFactory
-   - Saving, Updating, Deleting Entities
-   - Fetching Entities
-
-3. **Hibernate Query Language (HQL)**
-   - Basics of HQL
-   - Named Queries
-
-4. **Advanced Mappings**
-   - Inheritance Mapping
-   - Collection Mapping (One-to-Many, Many-to-One, Many-to-Many)
-
-5. **Caching**
-   - First-Level Cache
-   - Second-Level Cache
-
-6. **Transaction Management**
-   - Hibernate and JTA
-   - Managing Transactions
-
-### RESTful Web Services
-
-1. **Introduction to REST**
-   - What is REST?
-   - Principles of REST
-   - REST vs SOAP
-
-2. **Building RESTful Web Services**
-   - RESTful Annotations (@Path, @GET, @POST, @PUT, @DELETE)
-   - Handling Different Content Types (XML, JSON)
-   - Exception Handling in REST
-
-3. **JAX-RS (Java API for RESTful Web Services)**
-   - Setting Up JAX-RS
-   - Creating RESTful Resources
-
-4. **Consuming RESTful Web Services**
-   - Using `RestTemplate` in Spring
-   - Using `HttpClient`
-
-5. **Security in RESTful Web Services**
-   - Basic Authentication
-   - Token-Based Authentication (JWT)
-   - OAuth
-
-This comprehensive list covers essential topics to build a strong foundation in Java and related technologies, ensuring you are well-equipped for both development and understanding of key concepts in modern Java programming.
+This repository is a comprehensive guide to Core Java, structured to help learners of all levels build a solid foundation in Java programming. Explore each segment, complete the exercises, and enhance your skills!
