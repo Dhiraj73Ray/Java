@@ -155,8 +155,7 @@ The repository is organized into segments, each containing explanations, example
   1. **Custom Annotation**: Implement a simple custom annotation and apply it to a class.
   2. **Lambda Expressions**: Define functional interfaces and use lambda expressions to implement them.
 
-## Segment 13: Exception Handling 
-[Segment 13](segment13/)
+## Segment 13: Exception Handling
 - What is Exception
 - Exception Handling using Try-Catch
 - Try with Multiple Catch
